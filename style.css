@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.container{
+  width: 50%;
+  margin: 20px auto;
+}
+
+h1{
+  margin: 15px 0;
+
+}
+
+p{
+  margin:10px 0;
+}
+
+.numberInput{
+  width: 30%;
+  margin: 15px auto;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 7px;
+  outline: none;
+}
+
+.right{
+  border: 1px solid rgb(138, 229, 130);
+}
+
+.wrong{
+  border: 1px solid rgb(209, 120, 120);
+}
+
+.btn{
+  display: inline-block;
+  width: 20%;
+}
+
+.submit,
+.again,
+.start{
+  display: inline-block;
+  width:100%;
+  margin-left: auto;
+  height: 35px;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.msgright{
+  font-size: 17px;
+  color: rgb(138, 229, 130);
+}
+
+.msgwrong{
+  font-size: 17px;
+  color: rgb(209, 120, 120);
+}
+
+
+
+.again{
+  display: none;
+}
